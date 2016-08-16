@@ -25,7 +25,17 @@ var api = new ParseServer({
 	// liveQuery: {
 	// 	classNames: ["TestObject", "Place", "Team", "Player", "ChatMessage"] // List of classes to support for query subscriptions
 	// },
-
+	push: {
+		android: {
+			senderId: 'fitfriendlies-140422', // The Sender ID of GCM
+			apiKey: 'AIzaSyCyusPnvqoBrqNwTFQbxyVvGBlzGVgvXNY' // The Server API Key of GCM
+		},
+		ios: {
+			pdx: 'certificate.p12', // the path and filename to the .p12 file you exported earlier. 
+			bundleId: 'com.fitfriendlies.app', // The bundle identifier associated with your app
+			production: false
+		}
+	}
 	//**** Email Verification ****//
 	/* Enable email verification */
 	// verifyUserEmails: true,
