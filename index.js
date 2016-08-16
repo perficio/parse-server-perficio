@@ -28,7 +28,7 @@ var api = new ParseServer({
 	push: {
 		android: {
 			senderId: 'fitfriendlies-140422', // The Sender ID of GCM
-			apiKey: 'AIzaSyCyusPnvqoBrqNwTFQbxyVvGBlzGVgvXNY' // The Server API Key of GCM
+			apiKey: 'AIzaSyA8tuWz9O26eYzj6u7T_85-lWg3Z6oN1qU' // The Server API Key of GCM
 		},
 		ios: {
 			pdx: 'certificate.p12', // the path and filename to the .p12 file you exported earlier. 
